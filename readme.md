@@ -19,7 +19,7 @@ The task is defined below:
 ## API Documentation
 
 - [Postman Collection](https://www.getpostman.com/collections/5d4f13821c89e53c02fd)
-- Copy link and import in postman.
+- Copy above link and import in postman.
 
 
 ## Third-party Packages Used
@@ -31,6 +31,9 @@ The task is defined below:
 - Create Database
 - Update DB information in .env file
 - Please import above api json in postman.
+- Create user
+- Login using created user credential
+- You will get token in response once successful login and then use that token in header with other rest of apis.
 
 ## API Documentation
 #Note: Mentioned parameters in postman collection for per request is required param.
