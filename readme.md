@@ -10,23 +10,44 @@ The task is defined below:
  - The app logic should figure out and not allow obvious errors. For example a user cannot make a repayment for a loan that’s already been repaid.
 
 ## Installation Instructions
-
+- Download the codebase and then go to that folder and run below commands one by one.
 - Run `composer install`
-- Run `cp .env.example .env`
+- Run `php artisan optimize`
 - Run `php artisan key:generate`
 - Run `php artisan migrate`
-- Run `php artisan passport:install`
 
 ## API Documentation
 
-- [Postman Collection](https://www.getpostman.com/collections/1865a4ef920033776cef)
+- [Postman Collection](https://www.getpostman.com/collections/5d4f13821c89e53c02fd)
+- Copy link and import in postman.
+
 
 ## Third-party Packages Used
 
-- [Laravel Passport](https://laravel.com/docs/passport)
-- [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper)
-- [Laravel Debug Bar](https://github.com/barryvdh/laravel-debugbar)
+- [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum)
 
 ## TODO
 
-- Rewrite codebase following Service-Repository Pattern
+- Create Database
+- Update DB information in .env file
+- Please import above api json in postman.
+
+## API Documentation
+#Note: Mentioned parameters in postman collection for per request is required param.
+
+## Without token
+1.User Registeration
+2.User Login
+## End Without Token
+
+## With Token
+Header Information should pass as below.
+- Accept:application/json
+- Authorization: Bearer {Token}(Token will get from login api)
+
+3.User Profile Get
+4.Create Loan
+5.Get All Loans of perticular customer
+6.Get Specific loan details
+7.Create repayment
+## End With Token
