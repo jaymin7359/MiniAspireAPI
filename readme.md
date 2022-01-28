@@ -39,8 +39,8 @@ The task is defined below:
 #Note: Mentioned parameters in postman collection for per request is required param.
 
 ## Without token
-1.User Registeration
-2.User Login
+- User Registeration
+- User Login
 ## End Without Token
 
 ## With Token
@@ -48,9 +48,9 @@ Header Information should pass as below.
 - Accept:application/json
 - Authorization: Bearer {Token}(Token will get from login api)
 
-3.User Profile Get
-4.Create Loan
-5.Get All Loans of perticular customer
-6.Get Specific loan details
-7.Create repayment
+- User Profile Get
+- Create Loan
+- Get All Loans of perticular customer
+- Get Specific loan details
+- Create repayment
 ## End With Token
