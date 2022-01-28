@@ -10,7 +10,7 @@ The task is defined below:
  - The app logic should figure out and not allow obvious errors. For example a user cannot make a repayment for a loan that’s already been repaid.
 
 ## Installation Instructions
-- Download the codebase and then go to that folder and run below commands one by one.
+- Download the codebase and then go to that folder in terminal and run below commands one by one.
 - Run `composer install`
 - Run `php artisan optimize`
 - Run `php artisan key:generate`
