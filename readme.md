@@ -48,6 +48,7 @@ Header Information should pass as below.
 - Accept:application/json
 - Authorization: Bearer {Token}(Token will get from login api)
 
+Other Apis
 - User Profile Get
 - Create Loan
 - Get All Loans of perticular customer
